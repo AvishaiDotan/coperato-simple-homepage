@@ -1,0 +1,22 @@
+// Setup
+@import 'scss-reset/_reset.scss';
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/typography';
+@import 'setup/layout';
+@import 'setup/helpers';
+
+// Basics
+@import 'basics/body.scss';
+
+
+// CMPS
+@import 'cmps/app-header';
+@import 'cmps/hero';
+@import 'cmps/about';
+// @import 'cmps/app-feats';
+// @import 'cmps/app-demo';
+// @import 'cmps/app-feedbacks';
+
+// Components

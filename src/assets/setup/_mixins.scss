@@ -1,0 +1,45 @@
+/* Breakpoint mixins */
+@mixin for-mobile-layout {
+  //$mobile-breakpoint: 420px;
+  @media (max-width: $mobile-breakpoint) { @content; }
+}
+
+@mixin for-tablet-layout {
+  //$tablet-breakpoint: 920px;
+  @media (min-width: $tablet-breakpoint) { @content; }
+}
+
+@mixin for-desktop-layout {
+  //$desktop-breakpoint: 1300px;
+  @media (min-width: $desktop-breakpoint) { @content; }
+}
+
+
+
+
+
+// @include for-example-layout {
+//   @media (min-width: $example-breakpoint) { @content; }
+// }
+
+
+//Flexbox Mixin:
+@mixin flexbox-center-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexbox-center-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexbox-between-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+.hero {
+    background-repeat: no-repeat;
+    background-image: url(https://www.coperato.com/wp-content/uploads/2019/01/47343103_opt-min.jpg);
+    height: 400px;
+    margin-block-start: 83px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-family: Oswald-Regular;
+        font-size: 72px;
+        color: $clr-2;
+    }
+
+    h2 {
+        font-family: MavenPro-Regular;
+        color: $clr-2;
+        font-size: 20px;
+    }
+
+    button {
+        background-color: #2daae1;
+        border-radius: 5px;
+        color: $clr-2;
+    }
+}
